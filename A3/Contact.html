@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link href="style3.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2 class="Q">Wisdom is not a product of schooling but of the lifelong attempt to acquire it. - Albert
+            Einstein</h2>
+
+
+        <div class="dropdown">
+            <button class="dropbtn"><strong>Menu</strong>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html">About Me</a>
+                <a href="Beautiful_Memories.html">Beautiful Memories</a>
+                <a href="Contact.html">Contact Me</a>
+            </div>
+        </div>
+
+        <script type="module">
+            import { showDate } from "/1.js";
+            showDate();
+        </script>
+    </header>
+
+    <div class="Contact">
+        <table class="contact_info">
+            <thead>
+                <tr>
+                    <th colspan="3">Cotact me via</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="value">Email</td>
+                    <td colspan="2" class="value">jn293383@dal.ca</td>
+                </tr>
+
+                <tr>
+                    <td class="value">Phone</td>
+                    <td colspan="2">+1 9027198817</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form action="" method="get" class="contact_form">
+            <div class="input1">
+                <label for="email">Enter your email: </label>
+                <input name="email" id="email">
+            </div>
+            <div class="input2">
+                <label for="message">A short message: </label>
+                <br>
+                <textarea id="message" name="message" rows="10" cols="40">You're not alone</textarea>
+            </div>
+
+            <p id="result-message"></p>
+
+            <div class="submit">
+                <input type="button" value="Submit!" id="submit">
+            </div>
+
+            <script type="module">
+                import { ss_notification } from "/1.js";
+                ss_notification();
+            </script>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Memories</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="Q">Wisdom is not a product of schooling but of the lifelong attempt to acquire it. - Albert
+            Einstein</h2>
+
+
+        <div class="dropdown">
+            <button class="dropbtn"><strong>Menu</strong>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html">About Me</a>
+                <a href="Beautiful_Memories.html">Beautiful Memories</a>
+                <a href="Contact.html">Contact Me</a>
+            </div>
+        </div>
+
+        <script type="module">
+            import { showDate } from "/1.js";
+            showDate();
+        </script>
+    </header>
+
+    <div class="Gallery">
+        <img src="img/larrow.jpg" alt="leftarrow" id="larrow">
+        <img src="img/personal_pic.jpg" alt="with_mom1" id="pic2">
+        <img src="img/download.png" alt="rightarrow" id="rarrow">
+
+        <script type="module">
+            import { ll, rr } from "/2.js"
+            ll();
+            rr();
+        </script>
+    </div>
+</body>
+
+</html>
