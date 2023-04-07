@@ -3,6 +3,7 @@ let quote = document.querySelector('h2');
 
 let showDate = function () {
     quote.addEventListener('click', function (event) {
+        console.log(0);
         if (quote.className == "Q") {
             quote.className = 'D';
             quote.innerText = date;
@@ -15,17 +16,10 @@ let showDate = function () {
     })
 }
 
-let submit_btn = document.getElementById('submit');
-let message = document.getElementById('result-message');
+showDate();
 
-let ss_notification = function () {
-    submit_btn.addEventListener('click', function (event) {
-        message.innerHTML = "<strong>Submited Successful<strong>";
-        message.style.color = 'red';
-    })
-}
+// export {
+//     showDate,
+//     ss_notification
+// }
 
-export {
-    showDate,
-    ss_notification
-}

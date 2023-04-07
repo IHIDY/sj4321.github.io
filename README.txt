@@ -33,7 +33,7 @@ Some important JS features:
 1. In lines 4 to 16 of 1.js, I implemented a showDate function that, 
 when the user clicks on the quote at the top of my website, the quote 
 will be replaced with the current date and will be displayed in red.
-2. In lines 21 to 26 of 1.js, I implemented a notification function that, 
+2. In 3.js, I implemented a notification function that, 
 upon clicking the submit button to submit their form, the user will receive
 a success message indicating that the submission was successful.
 3. In lines 4 to 16 of 2.js, I implemented the pagination feature for the image gallery,

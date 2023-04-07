@@ -20,6 +20,10 @@ let rr = function () {
     })
 }
 
-export {
-    ll, rr
-}
+ll();
+rr();
+
+
+// export {
+//     ll, rr
+// }
